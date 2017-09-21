@@ -16,6 +16,7 @@ rm -f /lib/systemd/system/anaconda.target.wants/*;
 # Install Ansible and other requirements.
 RUN dnf -y install \
       ansible \
+      redhat-rpm-config \
       make \
       python-devel \
       python-pip \
