@@ -21,6 +21,7 @@ RUN dnf -y install \
       python2-dnf \
       unzip \
       tar \
+      glibc-devel \
       findutils \
  && dnf clean all
 
