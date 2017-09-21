@@ -21,6 +21,7 @@ RUN dnf -y install \
       python2-dnf \
       unzip \
       tar \
+      gcc \
       libffi-devel \
       glibc \
       glibc-devel \
