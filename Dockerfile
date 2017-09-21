@@ -16,6 +16,7 @@ rm -f /lib/systemd/system/anaconda.target.wants/*;
 # Install Ansible and other requirements.
 RUN dnf -y install \
       ansible \
+      python-pip \
       openssl-devel \
       sudo \
       which \
